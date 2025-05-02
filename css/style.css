@@ -344,12 +344,6 @@ ul.container li.active .line {
     box-sizing: border-box;
     margin-bottom: 100px;
 }
-#section5{
-    margin: 0 auto;
-    height: 500px;
-    box-sizing: border-box;
-    margin-bottom: 100px;
-}
 .contents{
     display: flex;
     justify-content: space-between;
@@ -395,7 +389,7 @@ ul.container li.active .line {
 /* contents e */
 #support_wrap {
     width: 100%;
-    height: 700px;
+    height: 400px;
     box-sizing: border-box;
     background-image: url(../img/bg2.png);
     background-position: center center;
@@ -404,15 +398,15 @@ ul.container li.active .line {
 }
 #support_inner {
     width: 1320px;
-    height: 700px;
+    height: 400px;
     box-sizing: border-box;
     margin: 0 auto;
     position: relative;
 }
 #support_inner img {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 23%;
+    left: 25%;
     filter: blur(8px);
     transition: filter 1s ease;
 }
