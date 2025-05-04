@@ -116,12 +116,15 @@ body {
 }
 /* header e */
 #main_banner{
-    margin: 0 auto;
+    position: relative;
     width: 100%;
-}
-#main_banner img{
-    width:100%;
     height: auto;
+    overflow: hidden;
+}
+#main_banner video{
+    width: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
 }
 /* banner e */
@@ -187,7 +190,7 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 .cptext_box{
-    width: 650px;
+    width: 800px;
     text-align: center;
 }
 .cptext_box h1{
@@ -197,14 +200,14 @@ body {
     font-weight: 800;
 }
 .cptext_box h2{
-    font-weight: 600;
+    font-weight: 650;
     font-size: 25px;
     color: #424242;
     padding: 20px 0;
     letter-spacing: -1px;
 }
 .cptext_box p{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     color: #666;
     line-height: 28px;
@@ -219,7 +222,7 @@ body {
 #container_wrap{
     width: 100%;
     height: 700px;
-    background-image: url(../img/bg.png);
+    background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
@@ -391,7 +394,7 @@ ul.container li.active .line {
     width: 100%;
     height: 400px;
     box-sizing: border-box;
-    background-image: url(../img/bg2.png);
+    background-image: url(./img/bg2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
