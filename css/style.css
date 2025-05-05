@@ -222,7 +222,7 @@ body {
 #container_wrap{
     width: 100%;
     height: 700px;
-    background-image: url(./img/bg.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
@@ -394,7 +394,7 @@ ul.container li.active .line {
     width: 100%;
     height: 400px;
     box-sizing: border-box;
-    background-image: url(./img/bg2.png);
+    background-image: url(../img/bg2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
